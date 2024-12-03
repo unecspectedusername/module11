@@ -44,7 +44,11 @@ input {
   background: none;
   background-color: #3cbc8d;
   color: white;
-  max-width: 200px;
+  width: 200px;
+}
+
+input:invalid {
+  border: px solid red;
 }
 
 main {
@@ -136,3 +140,56 @@ main {
   height: 100%;
   padding: 10px;
 }
+
+#selector {
+  position: relative;
+}
+
+#select-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border: none;
+  border-radius: 0;
+  width: 200px;
+  max-width: 200px;
+  height: 36px;
+  background-color: #3cbc8d;
+  margin-bottom: 5px;
+}
+
+#dropdown-arrow {
+  width: 0.625rem;
+  height: 0.625rem;
+  margin-inline-start: 0.75rem;
+}
+
+#dropdown {
+  position: absolute;
+  visibility: hidden;
+  scrollbar-width: none;
+}
+
+#dropdown>ul {
+  height: 234px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  list-style-type: none;
+  padding: 0;
+  margin-block: 0;
+}
+
+::-webkit-scrollbar {
+ display: none;
+}
+
+#dropdown>ul>li {
+  width: 200px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.select-option:hover {
+  filter: b

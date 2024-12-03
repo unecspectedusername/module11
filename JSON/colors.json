@@ -1,0 +1,147 @@
+[
+  {
+    "colorName": "Белый",
+    "colorCode": "#FFFFFF",
+    "colorDense": false
+  },
+  {
+    "colorName": "Черный",
+    "colorCode": "#000000",
+    "colorDense": true
+  },
+  {
+    "colorName": "Темно-красный",
+    "colorCode": "#990C0B",
+    "colorDense": true
+  },
+  {
+    "colorName": "Красный",
+    "colorCode": "#D72729",
+    "colorDense": true
+  },
+  {
+    "colorName": "Светло-красный",
+    "colorCode": "#F34143",
+    "colorDense": false
+  },
+  {
+    "colorName": "Темно-оранжевый",
+    "colorCode": "#CB5B01",
+    "colorDense": true
+  },
+  {
+    "colorName": "Оранжевый",
+    "colorCode": "#F77D11",
+    "colorDense": true
+  },
+  {
+    "colorName": "Светло-оранжевый",
+    "colorCode": "#FC953A",
+    "colorDense": false
+  },
+  {
+    "colorName": "Темно-желтый",
+    "colorCode": "#EAC100",
+    "colorDense": true
+  },
+  {
+    "colorName": "Желтый",
+    "colorCode": "#FFE71F",
+    "colorDense": false
+  },
+  {
+    "colorName": "Светло-желтый",
+    "colorCode": "#FFF075",
+    "colorDense": false
+  },
+  {
+    "colorName": "Темно-зеленый",
+    "colorCode": "#558C04",
+    "colorDense": true
+  },
+  {
+    "colorName": "Зеленый",
+    "colorCode": "#70B60C",
+    "colorDense": true
+  },
+  {
+    "colorName": "Светло-зеленый",
+    "colorCode": "#90D52E",
+    "colorDense": false
+  },
+  {
+    "colorName": "Темно-синий",
+    "colorCode": "#035CB4",
+    "colorDense": true
+  },
+  {
+    "colorName": "Синий",
+    "colorCode": "#177DE8",
+    "colorDense": true
+  },
+  {
+    "colorName": "Светло-синий",
+    "colorCode": "#4DA1F8",
+    "colorDense": false
+  },
+  {
+    "colorName": "Темно-фиолетовый",
+    "colorCode": "#670B9D",
+    "colorDense": true
+  },
+  {
+    "colorName": "Фиолетовый",
+    "colorCode": "#9F2DE1",
+    "colorDense": true
+  },
+  {
+    "colorName": "Светло-фиолетовый",
+    "colorCode": "#BB5FF5",
+    "colorDense": false
+  },
+  {
+    "colorName": "Темно-розовый",
+    "colorCode": "#CC0B4B",
+    "colorDense": true
+  },
+  {
+    "colorName": "Розовый",
+    "colorCode": "#F1417B",
+    "colorDense": true
+  },
+  {
+    "colorName": "Светло-розовый",
+    "colorCode": "#F6739E",
+    "colorDense": false
+  },
+  {
+    "colorName": "Темно-коричневый",
+    "colorCode": "#331C0C",
+    "colorDense": true
+  },
+  {
+    "colorName": "Коричневый",
+    "colorCode": "#884A1D",
+    "colorDense": true
+  },
+  {
+    "colorName": "Светло-коричневый",
+    "colorCode": "#9D7148",
+    "colorDense": true
+  },
+  {
+    "colorName": "Темно-серый",
+    "colorCode": "#9D7148",
+    "colorDense": true
+  },
+  {
+    "colorName": "Серый",
+    "colorCode": "#7D7D7D",
+    "colorDense": true
+  },
+  {
+    "colorName": "Светло-серый",
+    "colorCode": "#ADADAD",
+    "colorDense": false
+  }
+]

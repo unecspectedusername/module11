@@ -20,13 +20,13 @@
           <div class="line">
             <!-- пользователь указывает нижнюю границу weight -->
             <div>min weight:</div>
-            <input class="minweight__input" />
+            <input pattern="[0-9]+" class="minweight__input" />
           </div>
 
           <div class="line">
             <!-- пользователь указывает верхнюю границу weight -->
             <div>max weight:</div>
-            <input class="maxweight__input" />
+            <input pattern="[0-9]+" class="maxweight__input" />
           </div>
 
           <!-- TODO: при нажатии элементы массива фильтруются в пределах [minweight, maxweight] -->
@@ -58,7 +58,23 @@
 
           <div class="line">
             <div>color:</div>
-            <input class="color__input" />
+            <div id="selector">
+              <button id="select-button">
+                  Выберите цвет
+                  <svg id="dropdown-arrow" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                      viewBox="0 0 10 6">
+                      <g transform-origin="center">
+                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="m1 1 4 4 4-4" />
+                      </g>
+                  </svg>
+              </button>
+      
+              <div id="dropdown">
+                  <ul>
+                  </ul>
+              </div>
+          </div>
           </div>
 
           <div class="line">
@@ -76,7 +92,7 @@
         <h2 class="wrapper__title">🥑 Список экзотических фруктов</h2>
         <!-- TODO: формировать список динамически (то есть закоментированный код удалить) -->
         <ul class="fruits__list">
-          <!-- <li class="fruit__item fruit_violet">
+          <li class="fruit__item fruit_violet">
             <div class="fruit__info">
               <div>index: 0</div>
               <div>kind: Мангустин</div>
@@ -115,7 +131,7 @@
               <div>color: светло-коричневый</div>
               <div>weight (кг): 22</div>
             </div>
-          </li> -->
+          </li>
         </ul>
       </section>
     </main>
